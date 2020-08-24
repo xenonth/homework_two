@@ -38,37 +38,39 @@
     </div>
 
     <body>
-        <div class = "row">
-        <div class = "col-md-2"></div>
-        <div class="col-md-8 card">
-            <div class="card body h-75 w-75" style="background-color: #A9A9A9;">
-                <h3>Contact</h3>
-                <form>
-                    <div class="form-group">
-                        <label for="contact_form">Name</label>
-                        <textarea class="form-control" id="contact_form" rows="1"></textarea>
-                    </div>    
+        <section class = "container-fluid">
+            <div class = "row">
+                <div class = "col-md-2"></div>
+                    <form class="col-md-8 h-75" style="background-color: #A9A9A9; border: none;">
+                        <div class="card" style ="border: none;">
+                            <h3 class="card header" style="background-color: #A9A9A9;">Contact</h3>
+                            <div class="form-group" style="background-color: #A9A9A9;">
+                                <label for="contact_form">Name</label>
+                                <textarea class="form-control" id="contact_form" rows="1" placeholder="John Smith"></textarea>
+                            </div>    
             
-        <!--Email contact form with a submission button currently for show with no actual effect-->
+                            <!--Email contact form with a submission button currently for show with no actual effect-->
             
-                    <div class="form-group">
-                        <label for="contact_form">Email</label>
-                        <textarea class="form-control" id="contact_form" rows="1"></textarea>
-                    </div>
+                            <div class="form-group" style="background-color: #A9A9A9;">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="j.smithy@example.com">
+                            </div>
+                    
         
     <!--Message contact form with a submission button currently for show with no actual effect-->
         
-                    <div class = "form group">
-                        <label for="contact_form">Email Contact</label>
-                        <textarea class="form-control" id="contact_form" rows="6"></textarea>
-                        <br>
-                        <br>
-                    </div>
-                </form>
-            </div>
-        </div>
+                            <div class = "form group" style="background-color: #A9A9A9;">
+                                <label for="contact_form">Email Contact</label>
+                                <textarea class="form-control" id="contact_form" rows="6"></textarea>
+                                <br>
+                                <br>
+                            </div>
+                
+                        </div>
+                    </form>
+                </div>
+        </section>
         <div class="col-md-2"></div>
-        </div>
 
 <!--JS quries to allow bootstrap to run.-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
