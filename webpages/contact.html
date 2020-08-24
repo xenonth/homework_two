@@ -9,54 +9,65 @@
         <title>Tim's Online Portfolio</title>
     </head>
 </header>
-
-<header class = "container-fluid">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3 mb-2 text-white">
-        <a class="navbar-brand" href="#">Tim</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#about-me" aria-controls="about-me" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
+    <div class="row">
+        <header class = "container-fluid">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3 mb-2 text-white">
+                <a class="navbar-brand" href="#">Tim</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#about-me" aria-controls="about-me" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
       <!--dark navbar still need to align to right side of the screen-->
-        <div class="collapse navbar-collapse" id="about-me">
-          <ul class="navbar-nav mr-auto">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">About</a> 
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="contact.html">Contact</a>
-                </li>
-          </ul>
-        </div>
-      </nav>
-</header>
+                <div class="collapse navbar-collapse" id="about-me">
+                    <ul class="navbar-nav mr-auto">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">About</a> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
     <body>
-        <h1>Contact</h1>
-            <form>
-                <div class="form-group">
-                    <label for="contact_form">Name</label>
-                    <textarea class="form-control" id="contact_form" rows="1"></textarea>
-                </div>    
+        <div class = "row">
+        <div class = "col-md-2"></div>
+        <div class="col-md-8 card">
+            
+            <div class="card body">
+                <h3>Contact</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="contact_form">Name</label>
+                        <textarea class="form-control" id="contact_form" rows="1"></textarea>
+                    </div>    
             
         <!--Email contact form with a submission button currently for show with no actual effect-->
             
-            <div class="form-group">
-                <label for="contact_form">Email</label>
-                <textarea class="form-control" id="contact_form" rows="1"></textarea>
-            </div>
+                    <div class="form-group">
+                        <label for="contact_form">Email</label>
+                        <textarea class="form-control" id="contact_form" rows="1"></textarea>
+                    </div>
         
     <!--Message contact form with a submission button currently for show with no actual effect-->
         
-            <div class = "form group">
-                <div class="form-group">
-                    <label for="contact_form">Email Contact</label>
-                    <textarea class="form-control" id="contact_form" rows="6"></textarea>
-                </div>
-        </form>
+                    <div class = "form group">
+                        <label for="contact_form">Email Contact</label>
+                        <textarea class="form-control" id="contact_form" rows="6"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-m-2d"></div>
+        </div>
 
 <!--JS quries to allow bootstrap to run.-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -64,7 +75,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 <!--Footer Bar plan to add in a copyright symbol and images if time allows-->
-<footer>
-    <div class=" fixed-bottom p-3 mb-2 bg-dark text-white">
-      <P class = "text-center"> Copyright 2020</P>
-  </footer>
+    <div class="row">
+        <footer>
+            <div class=" fixed-bottom p-3 mb-2 bg-dark text-white">
+                <p class = "text-center"> Copyright 2020</p>
+            </div>
+        </footer>
+    </div>
+</html>
