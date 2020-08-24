@@ -38,20 +38,32 @@
     </div>
 
     <body>
-        <section class = "container-fluid">
-            <div class = "row">
-                <div class = "col-md-2"></div>
+        <div class = "container-fluid">
+            <section>
+                <div class = "row">
+                    <div class = "col-md-2"></div>
+                    <!--Form layout-->
                     <form class="col-md-8 h-75" style= "background-color: #A9A9A9; border: none; margin: 1%">
+                        <!--card body css design-->
+
                         <div class="card body" style= "background-color: #A9A9A9; border: none;">
-                            <h3 class="card header" style="background-color: #A9A9A9; border: none;">Contact</h3>
+
+                            <h3 class="card header" style="background-color: #A9A9A9; border: none;">
+                                Contact
+                            </h3>
+
                             <br>
+
                             <div class="form-group">
                                 <label for="contact_form">Name</label>
                                 <textarea class="form-control" id="contact_form" rows="1"></textarea>
-                            </div>    
-                             <br>   
+                            </div> 
+
+                             <br>  
+
                             <!--Email contact form with a submission button currently for show with no actual effect-->
                             <!--Will need to adjust and workout values for small and extra small screens as the form takes up the entire screen and does not look nice-->
+
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Email address</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1"></input>
@@ -61,7 +73,9 @@
     <!--Message contact form with a submission button currently for show with no actual effect-->
         
                             <div class = "form group">
-                                <label for="contact_form">Email Contact</label>
+                                <label for="contact_form">
+                                    Email Contact
+                                </label>
                                 <textarea class="form-control" id="contact_form" rows="6"></textarea>
                                 <br>
                                 <br>
@@ -70,20 +84,26 @@
                         </div>
                     </form>
                 </div>
-        </section>
-        <div class="col-md-2"></div>
+            </section>
+        
+            <div class="col-md-2"></div>   
+
+        
+            <footer>
+                <div class="w-100 fixed-bottom bg-dark text-white">
+                    <p class = "text-center">
+                        Copyright 2020
+                    </p>
+                </div>
+            </footer>
+        
+    </div>
 
 <!--JS quries to allow bootstrap to run.-->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
 <!--Footer Bar plan to add in a copyright symbol and images if time allows-->
-    <div class="row">
-        <footer>
-            <div class=" fixed-bottom p-3 mb-2 bg-dark text-white">
-                <p class = "text-center"> Copyright 2020</p>
-            </div>
-        </footer>
-    </div>
+
 </html>
