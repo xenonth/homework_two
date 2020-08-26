@@ -3,95 +3,105 @@
 
 <!--Header containing title information and bootsrap link-->
 <header>
-    <head>
-        <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8">
+        <!--Bootstrap CDN repository-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--Font Awesome repository-->
         <script src="https://kit.fontawesome.com/81d09f2bb0.js" crossorigin="anonymous"></script>
         <title>Tim's Online Portfolio</title>
     </head>
 </header>
 
-<div class="row">
-  <header class = "container-fluid">
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3 mb-2 text-white">
-          <a class="navbar-brand" href="#">Tim</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#about-me" aria-controls="about-me" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              
-<!--dark navbar still need to align to right side of the screen-->
-          <div class="collapse navbar-collapse" id="about-me">
-              <ul class="navbar-nav mr-auto">
-              
+
+  <!--The following div row is for a dark Navbar.  I still need to figure out what my Brand symbol is as I do not wish to misuse one and have copyright issues-->
+  
+  <body class="container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3 mb-2 text-white">
+      <a class="navbar-brand" href="#">Tim</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#about-me" aria-controls="about-me" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                
+  <!--dark navbar still need to align to right side of the screen-->
+            <div class="collapse navbar-collapse" id="about-me">
+                <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
-                      <a class="nav-link" href="../index.html">About</a> 
+                    <a class="nav-link" href="../index.html">About</a> 
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link  active" href="portfolio.html">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link active" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                   </li>
-              </ul>
-              </ul>
-          </div>
-      </nav>
-  </header>
-</div>
+                </ul>
+            </div>
+        </nav>
 
-
-<body>
-    <!--Place here stuff from my resume my background and skillset as well as an ability to think outside the box and plan really really well.-->
-  <!--Row 1-->
-  <div class="row">
-    <!--whitespace on the right side intentionally left blank may upadate later for a menu or something-->
-    <div class="col-md-2"></div>
-
+  
+<!--Place here stuff from my resume my background and skillset as well as an ability to think outside the box and plan really really well.-->
+  <!--The images is the main and only content on this page-->
+  
+  <main>
+    <!--Row 1-->
+    <div class="row">
+      <!--whitespace on the right side intentionally left blank may upadate later for a menu or something-->
+      <div class="col-md-2"></div>
       <!--Main content on the page just placeholder display images, as I am unsure of what to actually put here.-->
-    <div class="col-md-8">
-      <!--Sub Row 1 for Career pictures-->
-     <div class="row">
-        <div class="col-6">
-          <img src= "../Assets/Images/parliament.jpg"  class="img-fluid w-100" width="200 px" height="200px" style = "margin: 1%;"/>
+      <div class="col-md-8">
+        <!--Sub Row 1 for Career pictures-->
+        <div class="row">
+          <!--Sub Row 1 First Column to display a responsive image across all sizes-->
+          <div class="col-6">
+            <img src= "../Assets/Images/parliament.jpg"  class="img-fluid w-100" style = "margin: 1%;"/>
+          </div>
+          <!--Sub Row 2 Second Column-->
+          <div class="col-6">
+            <img src= "../Assets/Images/yac.jpg"  class="img-fluid w-100" style = "margin: 1%;"/>
+          </div>
         </div>
-        <div class="col-6">
-          <img src= "../Assets/Images/yac.jpg"  class="img-fluid w-100" style = "margin: 1%;"/>
-        </div>
-      </div>
-      <!--Sub row two for certificate images-->
-      <div class="row">
+        <!--Sub row two for certificate images-->
+        <div class="row">
+          <!--Column One-->
           <div class="col-6">
             <img src="../Assets/Images/presentation.jpg" class="img-fluid w-100" style = "margin: 1%;"/>
-            
+            <!--sunrise.jpg is required to stay in Column one to balance out the height of hideyhole.jpg.  As this layout is more aesthetically pleasing and takes up less space.-->
             <img src="../Assets/Images/sunrise.jpg" class="img-fluid w-100" style = "margin: 1%;"/>
           </div>
           <div class="col-6">
             <img src="../Assets/Images/hideyhole.jpg" class="img-fluid w-100" style = "margin: 1%;"/>
           </div>
+        </div>
       </div>
+      <div class="col-md-2"></div>
     </div>
-  </div>
-<!--Footer bar meant to be at the bottom of the webpage.-->
-<!--footer with social media icons-->
-<footer>
-  <div class="bottom p-3 mb-2 bg-dark text-white">
-    <p class = "text-center">
-      <i>
-        <a href="https://www.facebook.com/timothy.forbes.50" class="fa fa-facebook" style="color: white; margin: 2%;"></a>
-      </i>
-      <i>
-        <a href="https://www.linkedin.com/in/timothy-forbes-260711b9/" class="fab fa-linkedin" style="color: white; margin: 2%;"></a>
-      </i>
-      <i>
-        <a href="https://github.com/xenonth" class="fab fa-github" style="color: white; margin: 2%;"></a>
-      </i>
-    </p>
-  </div>
-</footer>
+  </main>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!--Footer bar meant to be at the bottom of the webpage.-->
+  <!--footer with social media icons-->
+  
+  <footer>
+    <div class="bottom p-3 mb-2 bg-dark text-white">
+      <p class = "text-center">
+        <i>
+          <a href="https://www.facebook.com/timothy.forbes.50" class="fa fa-facebook" style="color: white; margin: 2%;"></a>
+        </i>
+        <i>
+            <a href="https://www.linkedin.com/in/timothy-forbes-260711b9/" class="fab fa-linkedin" style="color: white; margin: 2%;"></a>
+        </i>
+        <i>
+          <a href="https://github.com/xenonth" class="fab fa-github" style="color: white; margin: 2%;"></a>
+        </i>
+      </p>
+    </div>
+  </footer>
+
+
+  <!--Necessary Bootstrap JQuery links-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   
 </body>
-<!--Footer Bar plan to add in a copyright symbol and images if time allows-->
+</html>
