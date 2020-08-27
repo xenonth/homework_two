@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<!--Header containing title information and bootsrap link-->
-<header>
+    <!--Header containing title information and bootsrap link-->
     <head>
         <meta charset="UTF-8" />
         <!--Bootsrap 4 stylesheet link-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <!--Font Awesome style sheet link for social media icons in footer-->
         <script src="https://kit.fontawesome.com/81d09f2bb0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type= "text/css" href="../Assets/style.css">
         <title>Tim's Online Portfolio</title>
     </head>
-</header>
-    <div class="row">
-        <header class = "container-fluid">
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3 mb-2 text-white">
-                <a class="navbar-brand" href="#">Tim</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#about-me" aria-controls="about-me" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-      <!--dark navbar still need to align to right side of the screen-->
+
+    <header class = "container-fluid padding-fix">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3 mb-2 text-white">
+            <a class="navbar-brand" href="#">Tim</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#about-me" aria-controls="about-me" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>                    
+                <!--dark navbar still need to align to right side of the screen-->
                 <div class="collapse navbar-collapse" id="about-me">
                     <ul class="navbar-nav mr-auto">
-                    
                         <li class="nav-item">
                             <a class="nav-link" href="../index.html">About</a> 
                         </li>
@@ -37,52 +34,50 @@
                 </div>
             </nav>
         </header>
-    </div>
+    
 
     <body>
-        <main>
-            <div class = "container-fluid">
-                <section>
+        <main class = "container-fluid">
+            <section>
                     <div class = "row">
                         <div class = "col-md-2"></div>
-                    <!--Form layout-->
-                        <form class="col-md-8 h-75" style= "background-color: #A9A9A9; border: none; margin: 1%">
+                        <!--Form layout-->
+                        <form class="col-md-8 h-75 design">
                         <!--card body css design-->
+                            <div class="card body design">
 
-                            <div class="card body" style= "background-color: #A9A9A9; border: none;">
-
-                                <h3 class="card header" style="background-color: #A9A9A9; border: none;">
+                                <h3 class="card header design text-center">
                                     Contact
                                 </h3>
 
                                 <br>
 
-                                <div class="form-group">
+                                <section class="form-group design">
                                     <label for="contact_form">Name</label>
                                     <textarea class="form-control" id="contact_form" rows="1"></textarea>
-                                </div> 
+                                </section> 
 
                                 <br>  
 
                             <!--Email contact form with a submission button currently for show with no actual effect-->
                             <!--Will need to adjust and workout values for small and extra small screens as the form takes up the entire screen and does not look nice-->
 
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Email address</label>
+                                <section class="form-group design">
+                                    <label for="exampleFormControlInput1">Email Contact</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1"></input>
-                                </div>
+                                </section>
                                 <br>
         
     <!--Message contact form with a submission button currently for show with no actual effect-->
         
-                                <div class = "form group">
+                                <section class = "form group design">
                                     <label for="contact_form">
-                                        Email Contact
+                                        Message
                                     </label>
                                     <textarea class="form-control" id="contact_form" rows="6"></textarea>
                                     <br>
                                     <br>
-                                </div>
+                                </section>
                             <!--submission button for contact information currently does not work-->
                                 <button type="submit" class="btn btn-primary mb-2">Submit</button>
                             </div>
@@ -90,23 +85,22 @@
                     </div>
                 </section>
             <div class="col-md-2"></div>
-            </div>
         </main>   
 
         <!--footer code for grey strip to be at the bottom of the webpage-->
 
         <!--footer with social media icons-->
         <footer>
-            <div class="bottom p-3 mb-2 bg-dark text-white">
+            <div class="bottom p-3 mb-2 bg-dark">
                 <p class = "text-center">
-                    <i>
-                        <a href="https://www.facebook.com/timothy.forbes.50" class="fa fa-facebook" style="color: white; margin: 2%;"></a>
+                    <i class = "socialspace">
+                        <a href="https://www.facebook.com/timothy.forbes.50" class="fa fa-facebook text-white"></a>
                     </i>
-                    <i>
-                        <a href="https://www.linkedin.com/in/timothy-forbes-260711b9/" class="fab fa-linkedin" style="color: white; margin: 2%;"></a>
+                    <i class = "socialspace">
+                        <a href="https://www.linkedin.com/in/timothy-forbes-260711b9/" class="fab fa-linkedin text-white"></a>
                     </i>
-                    <i>
-                        <a href="https://github.com/xenonth" class="fab fa-github" style="color: white; margin: 2%;"></a>
+                    <i class = "socialspace">
+                        <a href="https://github.com/xenonth" class="fab fa-github text-white"></a>
                     </i>
                 </p>
             </div>

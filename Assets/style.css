@@ -1,0 +1,19 @@
+/*Important CSS to make portfolio.html work. chagne it to style .css and break down classes to where they need to be.*/
+.padding-fix {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+/*margin space for portfolio images.*/
+.space {
+    margin: 1%;
+}
+/*styling for social media footer links.*/
+.socialspace {
+    margin: 2%;
+}
+/* CSS for form alignment issues and background color*/
+.design {
+    background-color: #A9A9A9; 
+    border: none; 
+    margin: 1%;
+}
