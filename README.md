@@ -9,3 +9,5 @@ I started by planning out how I wanted the navigation bar, footer, and central c
 Next was my background, since I was unsure of what to write I decided to write my resume in text form in a two by two format using the row and clumn system as well as cards.  
 
 Lastly, was the images, I was planning to have two images per row but having a lack of 'portfolio images' I settled on five, two of me at important social events, two from my photography files and one of recieving a degree.  With the image hideyhole and its size I had two put it in row "2" in order to have the design feel more aesthetically pleasing. 
+
+Lastly I spent a few hours changing divs into semantic html, and cleaqning up and modifying code adding in css style sheet links where required to have a professional look.  Last activity was to give the images a figcaption which after testing I believe may have broke the auto resizing on portfolio but due to the size of the images and that they are just a fill in I am currently ok with this.
