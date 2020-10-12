@@ -1,3 +1,19 @@
+/*color palette layout */
+nav {
+
+    background-color: #2e2e2e; 
+    color: #bebebe;
+}
+/* footer and icon color */
+.bar-color {
+    background-color: #2e2e2e; 
+}
+
+.icon-color {
+    color: #bebebe
+    
+}
+
 /*Important CSS to make portfolio.html work. chagne it to style .css and break down classes to where they need to be.*/
 .padding-fix {
     padding-left: 0%;
@@ -11,6 +27,7 @@
 .socialspace {
     margin: 2%;
 }
+
 /* CSS for form alignment issues and background color*/
 .design {
     background-color: #A9A9A9; 
