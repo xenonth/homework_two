@@ -9,6 +9,10 @@ nav {
     background-color: #2e2e2e; 
 }
 
+body {
+    background-color: #747373;
+}
+
 .icon-color {
     color: #bebebe
     
@@ -30,7 +34,9 @@ nav {
 
 /* CSS for form alignment issues and background color*/
 .design {
-    background-color: #A9A9A9; 
+    color:#ffffff;
+    background-color: #61b6ff; 
     border: none; 
     margin: 1%;
+    font-size: large;
 }
